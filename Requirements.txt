@@ -1,0 +1,21 @@
+
+
+# Core ML framework
+torch>=1.10        # for model fine‑tuning and inference 
+
+# Transformer model and tokenization
+transformers>=4.0.0  # DistilBERT model and Trainer API 
+
+# Data handling
+pandas>=1.3.0       # CSV/JSON/Excel I/O and DataFrame operations 
+numpy>=1.21.0       # numerical operations 
+
+# Model evaluation
+scikit‑learn>=1.0.0 # precision/recall & train/test splitting 
+
+# Utility
+tqdm>=4.60.0        # progress bars when reading large files 
+
+# Sequence‑level CRF (if you use torchcrf or sklearn‑crfsuite)
+sklearn-crfsuite>=0.3.6
+torchcrf>=0.7.2
