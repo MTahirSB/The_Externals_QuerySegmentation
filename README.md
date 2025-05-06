@@ -14,22 +14,11 @@ Segment e‑commerce queries into **Brand**, **Attributes**, and **Product Type*
 ## 📂 Project Structure
 
 The_Externals_QuerySegmentation/
-├── data/
-│ ├── Brand_Inference.csv # raw test queries
-│ ├── Queries.csv # leaderboard history
-│ └── bioes_sequences.csv # processed BIOES sequences
-├── src/
-│ ├── train_model.py # training script
-│ ├── evaluate_model.py # evaluation & metrics
-│ └── BIOES_sequence.py # preprocessing & tagging logic
-├── models/
-│ └── saved_model/ # fine‑tuned model + tokenizer
-│ └── results/ # evaluation outputs
-├── requirements.txt
-└── README.md
+
+<img width="432" alt="Screenshot 2025-05-06 at 3 11 13 PM" src="https://github.com/user-attachments/assets/44de2468-4ea3-4d1f-970c-9d2a764b5693" />
+
 
 ## 📊 Metrics (Latest Run)
-
 - **Top‑1 Accuracy:  %
 - **Brand Precision:  %
 - **Attribute Recall:** 85.3%
